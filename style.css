@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+	font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+ul {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	top: 50px;
+	right: 20px;
+	z-index: 100;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+li {
+	list-style-type: none;
+    cursor: pointer;
+}
+
+li a {
+	font-size: 21px;
+	margin-right: 50px;
+	text-decoration: none;
+	font-weight: 400;
+    color: #03203C;
+    opacity: 80%;
+	cursor: pointer;
+    padding: 10px 12px;
+    
+}
+
+li a:hover {
+    border-radius: 10px;
+    color: white;
+    background: darkgreen;
+    opacity: 100%;
+}
+
+.home {
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.home > img {
+    border-radius: 10px;
+}
+
+.home > p {
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 80%;
+    font-size: 18px;
+    color: #03203C;
+}
+
+.home > p span {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.container > .text {
+    flex-basis: 60%;
+    padding: 50px;
+}
+
+.about {
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgreen;
+}
+
+.txt1 > span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+p {
+    line-height: 25px;
+    color: black;
+}
+
+.txt4 {
+    line-height: 30px;
+}
+
+.txt4 > span {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.txt41 {
+    line-height: 30px;
+    margin-top: 60px;
+}
+
+.txt41 > span {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.txt5 {
+    margin-top: 40px;
+}
+
+.txt5 > span {
+    font-size: 18px;
+}
+
+span {
+    color: darkgreen;
+    font-weight: 500;
+}
+
+.image {
+    flex-basis: 40%;
+    /* display: flex; */
+    margin-top: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image > img {
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    margin: 50px 0;
+    height: 400px;
+}
+
+.container1 {
+    display: flex;
+}
+
+.about1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: darkgreen;
+}
+
+.container1 > .text {
+    flex-basis: 60%;
+    padding: 50px;
+}
+
+.txtcon {
+    display: flex;
+    margin: 40px 0;
+}
+
+.txt {
+    flex-basis: 70%;
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+.txt p {
+    color: #03203C;
+}
+
+.txtimage {
+    flex-basis: 30%;
+    padding: 30px 0;
+}
+
+.txtimage > p {
+    color: darkgreen;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.txtimage > img {
+   margin: 0 40px;
+}
+
+.manage {
+    height: 600px;
+}
+
+.manage {
+    flex-basis: 40%;
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.manage > img {
+    background-size: cover;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer > .copyright {
+	margin-top: 40px;
+	color: gray;
+	letter-spacing: .5px;
+	font-weight: 300;
+}
